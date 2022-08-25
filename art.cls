@@ -21,7 +21,7 @@
   \vskip .75em plus .25em minus .25em
 }
 
-% Author styling
+% Remove space after author
 \renewcommand\maketitlehookd{
-  \vspace{-1em}
+  \vspace{-2em}
 }
