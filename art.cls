@@ -1,10 +1,10 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{art}[2022/02/23 Artistic article class]
+\ProvidesClass{art.cls/art}[2022/02/23 Artistic article class]
 \RequirePackage{iftex}
 \RequireLuaTeX
 \RequirePackage[allbordercolors={.192157 .76862 .28627}]{hyperref} % Emerald Green
-\RequirePackage{amsmath, amssymb, mathrsfs, url, bookmark, fontspec, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soulutf8, colorpal, bibspacing, nestthms, ct, sset, lim}
+\RequirePackage{amsmath, amssymb, mathrsfs, url, bookmark, fontspec, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soulutf8, art.cls/colorpal, art.cls/bibspacing, art.cls/nestthms, art.cls/ct, art.cls/sset, art.cls/lim}
 
 % Use lettered footnotes
 \renewcommand{\thefootnote}{\alph{footnote}}
