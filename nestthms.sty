@@ -1,0 +1,43 @@
+\RequirePackage{amsthm, thmtools}
+
+\swapnumbers
+\declaretheoremstyle[
+  headfont=\normalfont\strongenv,
+  notefont=\color{strawberry}\mdseries,
+  notebraces={[}{]},
+  bodyfont=\color{gray65}\normalfont,
+  headpunct={},
+  postheadspace=0.4em,
+  qed=\qedsymbol
+]{defsty}
+
+% For original theorems
+\declaretheoremstyle[
+  headfont=\normalfont\strongenv,
+  notefont=\dagger\hspace{0.2em}\color{strawberry}\mdseries,
+  notebraces={[}{]},
+  bodyfont=\color{gray65}\normalfont,
+  headpunct={},
+  postheadspace=0.4em,
+  qed=\qedsymbol
+]{osty}
+\theoremstyle{defsty}
+\declaretheorem[within=subsection]{definition}
+\declaretheorem[within=subsection, sibling=definition]{terminology}
+\declaretheorem[within=subsection, sibling=definition]{notation}
+\declaretheorem[within=subsection, sibling=definition]{proposition}
+\declaretheorem[within=subsection, sibling=definition]{lemma}
+\declaretheorem[within=subsection, sibling=definition]{theorem}
+\declaretheorem[within=subsection, sibling=definition]{corollary}
+\declaretheorem[within=subsection, sibling=definition]{remark}
+\declaretheorem[within=subsection, sibling=definition]{example}
+\declaretheorem[within=subsection, sibling=definition]{caution}
+\declaretheorem[within=subsection, sibling=definition]{discussion}
+\declaretheorem[within=subsection, sibling=definition]{summary}
+\declaretheorem[within=subsection, sibling=definition]{intuition}
+\declaretheorem[within=subsection, sibling=definition]{convention}
+
+% Orignal results
+\theoremstyle{osty}
+\declaretheorem[within=subsection, sibling=definition, title=Lemma]{olemma}
+\declaretheorem[within=subsection, sibling=definition, title=Theorem]{otheorem}
