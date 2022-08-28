@@ -23,5 +23,5 @@
 
 % Remove space after author
 \renewcommand\maketitlehookd{
-  \vspace{-2em}
+  \vspace{-1em}
 }
