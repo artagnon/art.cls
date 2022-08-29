@@ -34,3 +34,8 @@
 % Pack enumerate items and bibitems
 \setlist{nolistsep}
 \setlength{\bibitemsep}{.2\baselineskip plus .05\baselineskip minus .05\baselineskip}
+
+% Fonts
+\setmainfont{Avenir Next}
+\setmonofont{Source Code Pro}
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchUppercase}
