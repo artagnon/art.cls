@@ -21,6 +21,11 @@
   \vskip .75em plus .25em minus .25em
 }
 
+% Section and subsection styles
+\renewcommand{\thesection}{\Roman{section}}
+\titleformat{\section}{\centering\scshape\Large\color{raspeberry}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\strongenv\large\color{gray80}}{\thesubsection}{0.7em}{}
+
 % Remove space after author
 \renewcommand\maketitlehookd{
   \vspace{-1em}
