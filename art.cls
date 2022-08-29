@@ -39,3 +39,10 @@
 \setmainfont{Avenir Next}
 \setmonofont{Source Code Pro}
 \defaultfontfeatures{Ligatures=TeX, Scale=MatchUppercase}
+
+% Fancy headers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\footnotesize\textcolor{gray80}{{\thepage / \pageref{LastPage}}}}
+\renewcommand{\sectionmark}[1]{\markboth{}{\thesection.\ #1}}
+\fancyhead[L]{\footnotesize\textcolor{gray80}{{\MakeUppercase{\rightmark}}}}
