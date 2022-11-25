@@ -4,7 +4,7 @@
 \RequirePackage{iftex}
 \RequireLuaTeX
 \RequirePackage[allbordercolors={.192157 .76862 .28627}]{hyperref} % Emerald Green
-\RequirePackage{amsmath, amssymb, mathrsfs, url, bookmark, fontspec, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soulutf8, art.cls/colorpal, art.cls/bibspacing, art.cls/nestthms, art.cls/ct, art.cls/sset, art.cls/lim}
+\RequirePackage{amsmath, amssymb, mathrsfs, url, bookmark, fontspec, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soulutf8, xargs, art.cls/colorpal, art.cls/bibspacing, art.cls/nestthms, art.cls/ct, art.cls/sset, art.cls/lim}
 \RequirePackage[a4paper, inner=25mm, outer=25mm, top=25mm, bottom=25mm]{geometry}
 
 % Use lettered footnotes
