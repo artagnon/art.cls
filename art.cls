@@ -3,7 +3,7 @@
 \ProvidesClass{art.cls/art}[2022/02/23 Artistic article class]
 \RequirePackage{iftex}
 \RequirePackage[allbordercolors={.192157 .76862 .28627}]{hyperref} % Emerald Green
-\RequirePackage{amsmath, amssymb, mathrsfs, url, bookmark, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soul, xargs, art.cls/colorpal, art.cls/bibspacing, art.cls/nestthms, art.cls/ct, art.cls/sset, art.cls/lim}
+\RequirePackage{amsmath, amssymb, mathrsfs, wasysym, url, bookmark, tikz, tikz-cd, mathpazo, fancyhdr, lastpage, titling, titlesec, enumitem, soul, xargs, art.cls/colorpal, art.cls/bibspacing, art.cls/nestthms, art.cls/ct, art.cls/sset, art.cls/lim}
 \RequirePackage[a4paper, margin=0.8in]{geometry}
 
 % Use lettered footnotes
