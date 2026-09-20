@@ -29,7 +29,7 @@
 
 % Section and subsection styles
 \renewcommand{\thesection}{\Roman{section}}
-\titleformat{\section}{\centering\scshape\Large\color{raspeberry}}{\thesection}{0.7em}{}
+\titleformat{\section}{\centering\scshape\Large\color{raspberry}}{\thesection}{0.7em}{}
 \titleformat{\subsection}{\strongenv\large\color{gray80}}{\thesubsection}{0.7em}{}
 
 % Pack enumerate items and bibitems
