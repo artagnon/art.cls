@@ -1,5 +1,16 @@
 \RequirePackage{amsthm, thmtools}
 
+% LaTeX 2026 handles sibling counter aliases; thmtools 0.76 creates them twice.
+% Workaround for https://github.com/muzimuzhi/thmtools/issues/75.
+\makeatletter
+\@ifundefined{newcounteralias}{}{%
+  \renewcommand\thmt@autorefsetup{%
+    \@xa\def\csname\thmt@envname autorefname\@xa\endcsname
+      \@xa{\thmt@thmname}%
+  }%
+}
+\makeatother
+
 \swapnumbers
 \declaretheoremstyle[
   headfont=\normalfont\strongenv,
